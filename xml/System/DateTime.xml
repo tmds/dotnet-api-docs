@@ -136,6 +136,8 @@ You can view the source for the entire set of examples from this article in eith
 
 > [!NOTE]
 >  An alternative to the <xref:System.DateTime> structure for working with date and time values in particular time zones is the <xref:System.DateTimeOffset> structure. The <xref:System.DateTimeOffset> structure stores date and time information in a private <xref:System.DateTime> field and the number of minutes by which that date and time differs from UTC in a private <xref:System.Int16> field. This makes it possible for a <xref:System.DateTimeOffset> value to reflect the time in a particular time zone, whereas a <xref:System.DateTime> value can unambiguously reflect only UTC and the local time zone's time. For a discussion about when to use the <xref:System.DateTime> structure or the <xref:System.DateTimeOffset> structure when working with date and time values, see [Choosing Between DateTime, DateTimeOffset, TimeSpan, and TimeZoneInfo](~/docs/standard/datetime/choosing-between-datetime.md).  
+
+### Test .NET Interactive 
   
 ### Initializing a DateTime object  
 
@@ -147,6 +149,13 @@ You can assign an initial value to a new `DateTime` value in many different ways
 - Using Visual Basic-specific language features to instantiate a `DateTime`. 
 
 The following code snippets show examples of each:
+
+### Test .NET Interactive
+
+:::code language="csharp" source="~/samples/snippets/csharp/VS_Snippets_CLR_System/system.datetime.constructor/cs/ctorexample1.cs" interactive="try-dotnet-method" id="Snippet1":::
+
+:::code language="csharp" source="~/samples/snippets/csharp/VS_Snippets_CLR_System/system.datetime.constructor/cs/ctorexample1.cs" interactive="try-dotnet-method" id="snippet1":::
+
 
 #### Invoke Constructors
 
