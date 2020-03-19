@@ -18,9 +18,6 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Bcl.AsyncInterfaces</AssemblyName>
   </AssemblyInfo>
-  <TypeForwardingChain>
-    <TypeForwarding From="Microsoft.Bcl.AsyncInterfaces" FromVersion="1.0.0.0" To="netstandard" ToVersion="2.1.0.0" FrameworkAlternate="dotnet-plat-ext-5.0" />
-  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Attribute</BaseTypeName>
   </Base>

@@ -148,7 +148,7 @@
       <Parameters>
         <Parameter Name="items" Type="System.Windows.Forms.ToolStripItem[]">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
+            <Attribute FrameworkAlternate="netcore-3.0">
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
@@ -2977,7 +2977,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="e" Type="System.Windows.Forms.InvalidateEventArgs" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+        <Parameter Name="e" Type="System.Windows.Forms.InvalidateEventArgs" />
       </Parameters>
       <Docs>
         <param name="e">An <see cref="T:System.Windows.Forms.InvalidateEventArgs" /> that contains the event data.</param>
@@ -4135,8 +4135,8 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="deviceDpiOld" Type="System.Int32" Index="0" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-4.8" />
-        <Parameter Name="deviceDpiNew" Type="System.Int32" Index="1" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-4.8" />
+        <Parameter Name="deviceDpiOld" Type="System.Int32" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-4.8" />
+        <Parameter Name="deviceDpiNew" Type="System.Int32" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-4.8" />
       </Parameters>
       <Docs>
         <param name="deviceDpiOld">The old DPI value.</param>
@@ -4157,7 +4157,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.ToolStrip.ResetMinimumSize" />
       <MemberSignature Language="VB.NET" Value="Public Sub ResetMinimumSize ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetMinimumSize();" />
-      <MemberSignature Language="F#" Value="member this.ResetMinimumSize : unit -&gt; unit" Usage="toolStrip.ResetMinimumSize " FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="F#" Value="member this.ResetMinimumSize : unit -&gt; unit" Usage="toolStrip.ResetMinimumSize " FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="F#" Value="override this.ResetMinimumSize : unit -&gt; unit" Usage="toolStrip.ResetMinimumSize " FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>

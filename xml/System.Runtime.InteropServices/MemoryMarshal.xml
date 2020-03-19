@@ -567,38 +567,6 @@ This method can be useful if part of a managed object represents a fixed array.
         </remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetArrayDataReference&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static ref T GetArrayDataReference&lt;T&gt; (T[] array);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetArrayDataReference&lt;T&gt;(!!T[] array) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.GetArrayDataReference``1(``0[])" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function GetArrayDataReference(Of T) (array As T()) As T" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static T % GetArrayDataReference(cli::array &lt;T&gt; ^ array);" />
-      <MemberSignature Language="F#" Value="static member GetArrayDataReference : 'T[] -&gt; 'T" Usage="System.Runtime.InteropServices.MemoryMarshal.GetArrayDataReference array" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Memory</AssemblyName>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue RefType="Ref">
-        <ReturnType>T</ReturnType>
-      </ReturnValue>
-      <TypeParameters>
-        <TypeParameter Name="T" />
-      </TypeParameters>
-      <Parameters>
-        <Parameter Name="array" Type="T[]" Index="0" FrameworkAlternate="net-5.0" />
-      </Parameters>
-      <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <param name="array">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetReference&lt;T&gt;">
       <MemberSignature Language="C#" Value="public static ref T GetReference&lt;T&gt; (ReadOnlySpan&lt;T&gt; span);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetReference&lt;T&gt;(valuetype System.ReadOnlySpan`1&lt;!!T&gt; span) cil managed" />
@@ -860,13 +828,7 @@ This method allows a read-only memory buffer to be used in existing APIs that re
       </TypeParameters>
       <Parameters>
         <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;T&gt;" />
-        <Parameter Name="manager" Type="TManager" RefType="out">
-          <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
-              <AttributeName>System.Diagnostics.CodeAnalysis.NotNullWhen(true)</AttributeName>
-            </Attribute>
-          </Attributes>
-        </Parameter>
+        <Parameter Name="manager" Type="TManager" RefType="out" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the items in the read-only memory buffer.</typeparam>
@@ -912,13 +874,7 @@ This method allows a read-only memory buffer to be used in existing APIs that re
       </TypeParameters>
       <Parameters>
         <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;T&gt;" />
-        <Parameter Name="manager" Type="TManager" RefType="out">
-          <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
-              <AttributeName>System.Diagnostics.CodeAnalysis.NotNullWhen(true)</AttributeName>
-            </Attribute>
-          </Attributes>
-        </Parameter>
+        <Parameter Name="manager" Type="TManager" RefType="out" />
         <Parameter Name="start" Type="System.Int32" RefType="out" />
         <Parameter Name="length" Type="System.Int32" RefType="out" />
       </Parameters>
@@ -960,13 +916,7 @@ This method allows a read-only memory buffer to be used in existing APIs that re
       </ReturnValue>
       <Parameters>
         <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;System.Char&gt;" />
-        <Parameter Name="text" Type="System.String" RefType="out">
-          <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
-              <AttributeName>System.Diagnostics.CodeAnalysis.NotNullWhen(true)</AttributeName>
-            </Attribute>
-          </Attributes>
-        </Parameter>
+        <Parameter Name="text" Type="System.String" RefType="out" />
         <Parameter Name="start" Type="System.Int32" RefType="out" />
         <Parameter Name="length" Type="System.Int32" RefType="out" />
       </Parameters>

@@ -134,21 +134,9 @@
       </TypeParameters>
       <Parameters>
         <Parameter Name="sequence" Type="System.Buffers.ReadOnlySequence&lt;T&gt;" />
-        <Parameter Name="startSegment" Type="System.Buffers.ReadOnlySequenceSegment&lt;T&gt;" RefType="out">
-          <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
-              <AttributeName>System.Diagnostics.CodeAnalysis.NotNullWhen(true)</AttributeName>
-            </Attribute>
-          </Attributes>
-        </Parameter>
+        <Parameter Name="startSegment" Type="System.Buffers.ReadOnlySequenceSegment&lt;T&gt;" RefType="out" />
         <Parameter Name="startIndex" Type="System.Int32" RefType="out" />
-        <Parameter Name="endSegment" Type="System.Buffers.ReadOnlySequenceSegment&lt;T&gt;" RefType="out">
-          <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
-              <AttributeName>System.Diagnostics.CodeAnalysis.NotNullWhen(true)</AttributeName>
-            </Attribute>
-          </Attributes>
-        </Parameter>
+        <Parameter Name="endSegment" Type="System.Buffers.ReadOnlySequenceSegment&lt;T&gt;" RefType="out" />
         <Parameter Name="endIndex" Type="System.Int32" RefType="out" />
       </Parameters>
       <Docs>

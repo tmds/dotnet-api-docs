@@ -1,6 +1,6 @@
 <Type Name="NewLateBinding" FullName="Microsoft.VisualBasic.CompilerServices.NewLateBinding">
   <TypeSignature Language="C#" Value="public sealed class NewLateBinding" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NewLateBinding extends System.Object" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NewLateBinding extends System.Object" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:Microsoft.VisualBasic.CompilerServices.NewLateBinding" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NewLateBinding" />
   <TypeSignature Language="C++ CLI" Value="public ref class NewLateBinding sealed" />
@@ -33,7 +33,7 @@
   <Members>
     <Member MemberName="FallbackCall">
       <MemberSignature Language="C#" Value="public static object FallbackCall (object Instance, string MemberName, object[] Arguments, string[] ArgumentNames, bool IgnoreReturn);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object FallbackCall(object Instance, string MemberName, object[] Arguments, string[] ArgumentNames, bool IgnoreReturn) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object FallbackCall(object Instance, string MemberName, object[] Arguments, string[] ArgumentNames, bool IgnoreReturn) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackCall(System.Object,System.String,System.Object[],System.String[],System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FallbackCall (Instance As Object, MemberName As String, Arguments As Object(), ArgumentNames As String(), IgnoreReturn As Boolean) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ FallbackCall(System::Object ^ Instance, System::String ^ MemberName, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames, bool IgnoreReturn);" />
@@ -91,7 +91,7 @@
     </Member>
     <Member MemberName="FallbackGet">
       <MemberSignature Language="C#" Value="public static object FallbackGet (object Instance, string MemberName, object[] Arguments, string[] ArgumentNames);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object FallbackGet(object Instance, string MemberName, object[] Arguments, string[] ArgumentNames) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object FallbackGet(object Instance, string MemberName, object[] Arguments, string[] ArgumentNames) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackGet(System.Object,System.String,System.Object[],System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FallbackGet (Instance As Object, MemberName As String, Arguments As Object(), ArgumentNames As String()) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ FallbackGet(System::Object ^ Instance, System::String ^ MemberName, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames);" />
@@ -140,7 +140,7 @@
     </Member>
     <Member MemberName="FallbackIndexSet">
       <MemberSignature Language="C#" Value="public static void FallbackIndexSet (object Instance, object[] Arguments, string[] ArgumentNames);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FallbackIndexSet(object Instance, object[] Arguments, string[] ArgumentNames) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FallbackIndexSet(object Instance, object[] Arguments, string[] ArgumentNames) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackIndexSet(System.Object,System.Object[],System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub FallbackIndexSet (Instance As Object, Arguments As Object(), ArgumentNames As String())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void FallbackIndexSet(System::Object ^ Instance, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames);" />
@@ -189,7 +189,7 @@
     </Member>
     <Member MemberName="FallbackIndexSetComplex">
       <MemberSignature Language="C#" Value="public static void FallbackIndexSetComplex (object Instance, object[] Arguments, string[] ArgumentNames, bool OptimisticSet, bool RValueBase);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FallbackIndexSetComplex(object Instance, object[] Arguments, string[] ArgumentNames, bool OptimisticSet, bool RValueBase) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FallbackIndexSetComplex(object Instance, object[] Arguments, string[] ArgumentNames, bool OptimisticSet, bool RValueBase) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackIndexSetComplex(System.Object,System.Object[],System.String[],System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub FallbackIndexSetComplex (Instance As Object, Arguments As Object(), ArgumentNames As String(), OptimisticSet As Boolean, RValueBase As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void FallbackIndexSetComplex(System::Object ^ Instance, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames, bool OptimisticSet, bool RValueBase);" />
@@ -242,7 +242,7 @@
     </Member>
     <Member MemberName="FallbackInvokeDefault1">
       <MemberSignature Language="C#" Value="public static object FallbackInvokeDefault1 (object Instance, object[] Arguments, string[] ArgumentNames, bool ReportErrors);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object FallbackInvokeDefault1(object Instance, object[] Arguments, string[] ArgumentNames, bool ReportErrors) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object FallbackInvokeDefault1(object Instance, object[] Arguments, string[] ArgumentNames, bool ReportErrors) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackInvokeDefault1(System.Object,System.Object[],System.String[],System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FallbackInvokeDefault1 (Instance As Object, Arguments As Object(), ArgumentNames As String(), ReportErrors As Boolean) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ FallbackInvokeDefault1(System::Object ^ Instance, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames, bool ReportErrors);" />
@@ -291,7 +291,7 @@
     </Member>
     <Member MemberName="FallbackInvokeDefault2">
       <MemberSignature Language="C#" Value="public static object FallbackInvokeDefault2 (object Instance, object[] Arguments, string[] ArgumentNames, bool ReportErrors);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object FallbackInvokeDefault2(object Instance, object[] Arguments, string[] ArgumentNames, bool ReportErrors) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object FallbackInvokeDefault2(object Instance, object[] Arguments, string[] ArgumentNames, bool ReportErrors) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackInvokeDefault2(System.Object,System.Object[],System.String[],System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FallbackInvokeDefault2 (Instance As Object, Arguments As Object(), ArgumentNames As String(), ReportErrors As Boolean) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ FallbackInvokeDefault2(System::Object ^ Instance, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames, bool ReportErrors);" />
@@ -340,7 +340,7 @@
     </Member>
     <Member MemberName="FallbackSet">
       <MemberSignature Language="C#" Value="public static void FallbackSet (object Instance, string MemberName, object[] Arguments);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FallbackSet(object Instance, string MemberName, object[] Arguments) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FallbackSet(object Instance, string MemberName, object[] Arguments) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackSet(System.Object,System.String,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub FallbackSet (Instance As Object, MemberName As String, Arguments As Object())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void FallbackSet(System::Object ^ Instance, System::String ^ MemberName, cli::array &lt;System::Object ^&gt; ^ Arguments);" />
@@ -386,7 +386,7 @@
     </Member>
     <Member MemberName="FallbackSetComplex">
       <MemberSignature Language="C#" Value="public static void FallbackSetComplex (object Instance, string MemberName, object[] Arguments, bool OptimisticSet, bool RValueBase);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FallbackSetComplex(object Instance, string MemberName, object[] Arguments, bool OptimisticSet, bool RValueBase) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FallbackSetComplex(object Instance, string MemberName, object[] Arguments, bool OptimisticSet, bool RValueBase) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackSetComplex(System.Object,System.String,System.Object[],System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub FallbackSetComplex (Instance As Object, MemberName As String, Arguments As Object(), OptimisticSet As Boolean, RValueBase As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void FallbackSetComplex(System::Object ^ Instance, System::String ^ MemberName, cli::array &lt;System::Object ^&gt; ^ Arguments, bool OptimisticSet, bool RValueBase);" />
@@ -436,7 +436,7 @@
     </Member>
     <Member MemberName="LateCall">
       <MemberSignature Language="C#" Value="public static object LateCall (object Instance, Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, Type[] TypeArguments, bool[] CopyBack, bool IgnoreReturn);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object LateCall(object Instance, class System.Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, class System.Type[] TypeArguments, bool[] CopyBack, bool IgnoreReturn) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object LateCall(object Instance, class System.Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, class System.Type[] TypeArguments, bool[] CopyBack, bool IgnoreReturn) cil managed" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateCall(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean[],System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LateCall (Instance As Object, Type As Type, MemberName As String, Arguments As Object(), ArgumentNames As String(), TypeArguments As Type(), CopyBack As Boolean(), IgnoreReturn As Boolean) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ LateCall(System::Object ^ Instance, Type ^ Type, System::String ^ MemberName, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames, cli::array &lt;Type ^&gt; ^ TypeArguments, cli::array &lt;bool&gt; ^ CopyBack, bool IgnoreReturn);" />
@@ -495,7 +495,7 @@
     </Member>
     <Member MemberName="LateCallInvokeDefault">
       <MemberSignature Language="C#" Value="public static object LateCallInvokeDefault (object Instance, object[] Arguments, string[] ArgumentNames, bool ReportErrors);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object LateCallInvokeDefault(object Instance, object[] Arguments, string[] ArgumentNames, bool ReportErrors) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object LateCallInvokeDefault(object Instance, object[] Arguments, string[] ArgumentNames, bool ReportErrors) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateCallInvokeDefault(System.Object,System.Object[],System.String[],System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LateCallInvokeDefault (Instance As Object, Arguments As Object(), ArgumentNames As String(), ReportErrors As Boolean) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ LateCallInvokeDefault(System::Object ^ Instance, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames, bool ReportErrors);" />
@@ -585,7 +585,7 @@
     </Member>
     <Member MemberName="LateGet">
       <MemberSignature Language="C#" Value="public static object LateGet (object Instance, Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, Type[] TypeArguments, bool[] CopyBack);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object LateGet(object Instance, class System.Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, class System.Type[] TypeArguments, bool[] CopyBack) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object LateGet(object Instance, class System.Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, class System.Type[] TypeArguments, bool[] CopyBack) cil managed" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LateGet (Instance As Object, Type As Type, MemberName As String, Arguments As Object(), ArgumentNames As String(), TypeArguments As Type(), CopyBack As Boolean()) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ LateGet(System::Object ^ Instance, Type ^ Type, System::String ^ MemberName, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames, cli::array &lt;Type ^&gt; ^ TypeArguments, cli::array &lt;bool&gt; ^ CopyBack);" />
@@ -635,7 +635,7 @@
     </Member>
     <Member MemberName="LateGetInvokeDefault">
       <MemberSignature Language="C#" Value="public static object LateGetInvokeDefault (object Instance, object[] Arguments, string[] ArgumentNames, bool ReportErrors);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object LateGetInvokeDefault(object Instance, object[] Arguments, string[] ArgumentNames, bool ReportErrors) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object LateGetInvokeDefault(object Instance, object[] Arguments, string[] ArgumentNames, bool ReportErrors) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGetInvokeDefault(System.Object,System.Object[],System.String[],System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LateGetInvokeDefault (Instance As Object, Arguments As Object(), ArgumentNames As String(), ReportErrors As Boolean) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ LateGetInvokeDefault(System::Object ^ Instance, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames, bool ReportErrors);" />
@@ -681,7 +681,7 @@
     </Member>
     <Member MemberName="LateIndexGet">
       <MemberSignature Language="C#" Value="public static object LateIndexGet (object Instance, object[] Arguments, string[] ArgumentNames);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object LateIndexGet(object Instance, object[] Arguments, string[] ArgumentNames) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object LateIndexGet(object Instance, object[] Arguments, string[] ArgumentNames) cil managed" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(System.Object,System.Object[],System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LateIndexGet (Instance As Object, Arguments As Object(), ArgumentNames As String()) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ LateIndexGet(System::Object ^ Instance, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames);" />
@@ -726,7 +726,7 @@
     </Member>
     <Member MemberName="LateIndexSet">
       <MemberSignature Language="C#" Value="public static void LateIndexSet (object Instance, object[] Arguments, string[] ArgumentNames);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void LateIndexSet(object Instance, object[] Arguments, string[] ArgumentNames) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void LateIndexSet(object Instance, object[] Arguments, string[] ArgumentNames) cil managed" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexSet(System.Object,System.Object[],System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub LateIndexSet (Instance As Object, Arguments As Object(), ArgumentNames As String())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void LateIndexSet(System::Object ^ Instance, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames);" />
@@ -767,7 +767,7 @@
     </Member>
     <Member MemberName="LateIndexSetComplex">
       <MemberSignature Language="C#" Value="public static void LateIndexSetComplex (object Instance, object[] Arguments, string[] ArgumentNames, bool OptimisticSet, bool RValueBase);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void LateIndexSetComplex(object Instance, object[] Arguments, string[] ArgumentNames, bool OptimisticSet, bool RValueBase) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void LateIndexSetComplex(object Instance, object[] Arguments, string[] ArgumentNames, bool OptimisticSet, bool RValueBase) cil managed" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexSetComplex(System.Object,System.Object[],System.String[],System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub LateIndexSetComplex (Instance As Object, Arguments As Object(), ArgumentNames As String(), OptimisticSet As Boolean, RValueBase As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void LateIndexSetComplex(System::Object ^ Instance, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames, bool OptimisticSet, bool RValueBase);" />
@@ -821,7 +821,7 @@
     </MemberGroup>
     <Member MemberName="LateSet">
       <MemberSignature Language="C#" Value="public static void LateSet (object Instance, Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, Type[] TypeArguments);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void LateSet(object Instance, class System.Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, class System.Type[] TypeArguments) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void LateSet(object Instance, class System.Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, class System.Type[] TypeArguments) cil managed" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub LateSet (Instance As Object, Type As Type, MemberName As String, Arguments As Object(), ArgumentNames As String(), TypeArguments As Type())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void LateSet(System::Object ^ Instance, Type ^ Type, System::String ^ MemberName, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames, cli::array &lt;Type ^&gt; ^ TypeArguments);" />
@@ -868,7 +868,7 @@
     </Member>
     <Member MemberName="LateSet">
       <MemberSignature Language="C#" Value="public static void LateSet (object Instance, Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, Type[] TypeArguments, bool OptimisticSet, bool RValueBase, Microsoft.VisualBasic.CallType CallType);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void LateSet(object Instance, class System.Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, class System.Type[] TypeArguments, bool OptimisticSet, bool RValueBase, valuetype Microsoft.VisualBasic.CallType CallType) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void LateSet(object Instance, class System.Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, class System.Type[] TypeArguments, bool OptimisticSet, bool RValueBase, valuetype Microsoft.VisualBasic.CallType CallType) cil managed" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean,System.Boolean,Microsoft.VisualBasic.CallType)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub LateSet (Instance As Object, Type As Type, MemberName As String, Arguments As Object(), ArgumentNames As String(), TypeArguments As Type(), OptimisticSet As Boolean, RValueBase As Boolean, CallType As CallType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void LateSet(System::Object ^ Instance, Type ^ Type, System::String ^ MemberName, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames, cli::array &lt;Type ^&gt; ^ TypeArguments, bool OptimisticSet, bool RValueBase, Microsoft::VisualBasic::CallType CallType);" />
@@ -928,7 +928,7 @@
     </Member>
     <Member MemberName="LateSetComplex">
       <MemberSignature Language="C#" Value="public static void LateSetComplex (object Instance, Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, Type[] TypeArguments, bool OptimisticSet, bool RValueBase);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void LateSetComplex(object Instance, class System.Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, class System.Type[] TypeArguments, bool OptimisticSet, bool RValueBase) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void LateSetComplex(object Instance, class System.Type Type, string MemberName, object[] Arguments, string[] ArgumentNames, class System.Type[] TypeArguments, bool OptimisticSet, bool RValueBase) cil managed" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSetComplex(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub LateSetComplex (Instance As Object, Type As Type, MemberName As String, Arguments As Object(), ArgumentNames As String(), TypeArguments As Type(), OptimisticSet As Boolean, RValueBase As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void LateSetComplex(System::Object ^ Instance, Type ^ Type, System::String ^ MemberName, cli::array &lt;System::Object ^&gt; ^ Arguments, cli::array &lt;System::String ^&gt; ^ ArgumentNames, cli::array &lt;Type ^&gt; ^ TypeArguments, bool OptimisticSet, bool RValueBase);" />

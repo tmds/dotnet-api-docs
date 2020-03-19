@@ -55,7 +55,7 @@
       <Parameters>
         <Parameter Name="source" Type="System.Buffers.ReadOnlySequence&lt;T&gt;" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
+            <Attribute FrameworkAlternate="netcore-2.1">
               <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
             </Attribute>
           </Attributes>
@@ -103,7 +103,7 @@
       <Parameters>
         <Parameter Name="source" Type="System.Buffers.ReadOnlySequence&lt;T&gt;" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
+            <Attribute FrameworkAlternate="netcore-2.1">
               <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
             </Attribute>
           </Attributes>
@@ -148,7 +148,7 @@
       <Parameters>
         <Parameter Name="sequence" Type="System.Buffers.ReadOnlySequence&lt;T&gt;" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
+            <Attribute FrameworkAlternate="netcore-2.1">
               <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
             </Attribute>
           </Attributes>

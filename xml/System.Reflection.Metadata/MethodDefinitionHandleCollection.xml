@@ -5,7 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public Structure MethodDefinitionHandleCollection&#xA;Implements IEnumerable(Of MethodDefinitionHandle), IReadOnlyCollection(Of MethodDefinitionHandle)" />
   <TypeSignature Language="C++ CLI" Value="public value class MethodDefinitionHandleCollection : System::Collections::Generic::IEnumerable&lt;System::Reflection::Metadata::MethodDefinitionHandle&gt;, System::Collections::Generic::IReadOnlyCollection&lt;System::Reflection::Metadata::MethodDefinitionHandle&gt;" />
   <TypeSignature Language="F#" Value="type MethodDefinitionHandleCollection = struct&#xA;    interface IReadOnlyCollection&lt;MethodDefinitionHandle&gt;&#xA;    interface seq&lt;MethodDefinitionHandle&gt;&#xA;    interface IEnumerable" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
-  <TypeSignature Language="F#" Value="type MethodDefinitionHandleCollection = struct&#xA;    interface seq&lt;MethodDefinitionHandle&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyCollection&lt;MethodDefinitionHandle&gt;" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="F#" Value="type MethodDefinitionHandleCollection = struct&#xA;    interface seq&lt;MethodDefinitionHandle&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyCollection&lt;MethodDefinitionHandle&gt;" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <AssemblyInfo>
     <AssemblyName>System.Reflection.Metadata</AssemblyName>
     <AssemblyVersion>1.0.22.0</AssemblyVersion>

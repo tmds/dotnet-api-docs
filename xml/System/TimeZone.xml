@@ -1,6 +1,6 @@
 <Type Name="TimeZone" FullName="System.TimeZone">
   <TypeSignature Language="C#" Value="public abstract class TimeZone" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TimeZone extends System.Object" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TimeZone extends System.Object" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1" />
   <TypeSignature Language="DocId" Value="T:System.TimeZone" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class TimeZone" />
   <TypeSignature Language="C++ CLI" Value="public ref class TimeZone abstract" />

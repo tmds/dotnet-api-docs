@@ -140,13 +140,7 @@
       <Parameters>
         <Parameter Name="dictionary" Type="System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;" RefType="this" />
         <Parameter Name="key" Type="TKey" />
-        <Parameter Name="value" Type="TValue" RefType="out">
-          <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
-              <AttributeName>System.Diagnostics.CodeAnalysis.MaybeNullWhen(false)</AttributeName>
-            </Attribute>
-          </Attributes>
-        </Parameter>
+        <Parameter Name="value" Type="TValue" RefType="out" />
       </Parameters>
       <Docs>
         <typeparam name="TKey">The type of the keys in the <paramref name="dictionary" />.</typeparam>

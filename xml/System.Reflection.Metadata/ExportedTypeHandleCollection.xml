@@ -5,7 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public Structure ExportedTypeHandleCollection&#xA;Implements IEnumerable(Of ExportedTypeHandle), IReadOnlyCollection(Of ExportedTypeHandle)" />
   <TypeSignature Language="C++ CLI" Value="public value class ExportedTypeHandleCollection : System::Collections::Generic::IEnumerable&lt;System::Reflection::Metadata::ExportedTypeHandle&gt;, System::Collections::Generic::IReadOnlyCollection&lt;System::Reflection::Metadata::ExportedTypeHandle&gt;" />
   <TypeSignature Language="F#" Value="type ExportedTypeHandleCollection = struct&#xA;    interface IReadOnlyCollection&lt;ExportedTypeHandle&gt;&#xA;    interface seq&lt;ExportedTypeHandle&gt;&#xA;    interface IEnumerable" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
-  <TypeSignature Language="F#" Value="type ExportedTypeHandleCollection = struct&#xA;    interface seq&lt;ExportedTypeHandle&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyCollection&lt;ExportedTypeHandle&gt;" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="F#" Value="type ExportedTypeHandleCollection = struct&#xA;    interface seq&lt;ExportedTypeHandle&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyCollection&lt;ExportedTypeHandle&gt;" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <AssemblyInfo>
     <AssemblyName>System.Reflection.Metadata</AssemblyName>
     <AssemblyVersion>1.0.22.0</AssemblyVersion>

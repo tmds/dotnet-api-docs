@@ -363,13 +363,7 @@ The current <paramref name="reader" /> token does not start or represent a value
       </ReturnValue>
       <Parameters>
         <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
-        <Parameter Name="document" Type="System.Text.Json.JsonDocument" RefType="out">
-          <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
-              <AttributeName>System.Diagnostics.CodeAnalysis.NotNullWhen(true)</AttributeName>
-            </Attribute>
-          </Attributes>
-        </Parameter>
+        <Parameter Name="document" Type="System.Text.Json.JsonDocument" RefType="out" />
       </Parameters>
       <Docs>
         <param name="reader">The reader to read.</param>

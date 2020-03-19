@@ -5,7 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public Structure CustomAttributeHandleCollection&#xA;Implements IEnumerable(Of CustomAttributeHandle), IReadOnlyCollection(Of CustomAttributeHandle)" />
   <TypeSignature Language="C++ CLI" Value="public value class CustomAttributeHandleCollection : System::Collections::Generic::IEnumerable&lt;System::Reflection::Metadata::CustomAttributeHandle&gt;, System::Collections::Generic::IReadOnlyCollection&lt;System::Reflection::Metadata::CustomAttributeHandle&gt;" />
   <TypeSignature Language="F#" Value="type CustomAttributeHandleCollection = struct&#xA;    interface IReadOnlyCollection&lt;CustomAttributeHandle&gt;&#xA;    interface seq&lt;CustomAttributeHandle&gt;&#xA;    interface IEnumerable" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
-  <TypeSignature Language="F#" Value="type CustomAttributeHandleCollection = struct&#xA;    interface seq&lt;CustomAttributeHandle&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyCollection&lt;CustomAttributeHandle&gt;" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="F#" Value="type CustomAttributeHandleCollection = struct&#xA;    interface seq&lt;CustomAttributeHandle&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyCollection&lt;CustomAttributeHandle&gt;" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <AssemblyInfo>
     <AssemblyName>System.Reflection.Metadata</AssemblyName>
     <AssemblyVersion>1.0.22.0</AssemblyVersion>

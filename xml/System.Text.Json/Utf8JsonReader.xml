@@ -1110,13 +1110,7 @@ For comments, this value points to before the first comment delimiter (that is, 
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Byte[]" RefType="out">
-          <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
-              <AttributeName>System.Diagnostics.CodeAnalysis.NotNullWhen(true)</AttributeName>
-            </Attribute>
-          </Attributes>
-        </Parameter>
+        <Parameter Name="value" Type="System.Byte[]" RefType="out" />
       </Parameters>
       <Docs>
         <param name="value">When this method returns, contains the decoded binary representation of the Base64 text.</param>

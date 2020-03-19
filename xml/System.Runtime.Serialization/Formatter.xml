@@ -1,6 +1,6 @@
 <Type Name="Formatter" FullName="System.Runtime.Serialization.Formatter">
   <TypeSignature Language="C#" Value="public abstract class Formatter : System.Runtime.Serialization.IFormatter" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Formatter extends System.Object implements class System.Runtime.Serialization.IFormatter" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Formatter extends System.Object implements class System.Runtime.Serialization.IFormatter" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1" />
   <TypeSignature Language="DocId" Value="T:System.Runtime.Serialization.Formatter" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Formatter&#xA;Implements IFormatter" />
   <TypeSignature Language="C++ CLI" Value="public ref class Formatter abstract : System::Runtime::Serialization::IFormatter" />
